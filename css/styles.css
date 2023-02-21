@@ -1,13 +1,11 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
     font-family: montserrat;
 }
 body{
     background: f1fbff;
-}
-.section-padding{
-    padding: 100px 0;
 }
 .carousel-item{
    height: 100vh;
@@ -58,16 +56,15 @@ body{
 .navbar-light .navbar-nav .navbar-link{
     color: #000
 }
-.w-100{
-    height: 100vh;
-}
 .servicios .card-body i{
     font-size: 50px;
 }
 .ubicacion .card{
     box-shadow: 15px 15px 40px rgba(0,0,0,0.15);
 }
-
+.card{
+    width: 280px;
+}
 iframe{
     width: 100%;
     height: 450px
