@@ -78,6 +78,9 @@ iframe{
 textarea{
     resize: none;
 }
+.img-area{
+    width: 100%;
+}
 
 /* Media Query */
 
